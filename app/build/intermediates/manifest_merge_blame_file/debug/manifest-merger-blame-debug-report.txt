@@ -11,11 +11,11 @@
 9-->D:\androidwork\FoodOrder\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->D:\androidwork\FoodOrder\app\src\main\AndroidManifest.xml:5:5-83
+11-->D:\androidwork\FoodOrder\app\src\main\AndroidManifest.xml:5:5-67
 11-->D:\androidwork\FoodOrder\app\src\main\AndroidManifest.xml:5:22-64
 12
 13    <application
-13-->D:\androidwork\FoodOrder\app\src\main\AndroidManifest.xml:7:5-24:19
+13-->D:\androidwork\FoodOrder\app\src\main\AndroidManifest.xml:7:5-29:19
 14        android:allowBackup="true"
 14-->D:\androidwork\FoodOrder\app\src\main\AndroidManifest.xml:8:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -33,27 +33,36 @@
 22        android:testOnly="true"
 23        android:theme="@style/AppTheme" >
 23-->D:\androidwork\FoodOrder\app\src\main\AndroidManifest.xml:13:9-40
-24        <activity android:name="com.example.foodorder.MainActivity" >
-24-->D:\androidwork\FoodOrder\app\src\main\AndroidManifest.xml:14:9-20:20
-24-->D:\androidwork\FoodOrder\app\src\main\AndroidManifest.xml:14:19-47
-25            <intent-filter>
-25-->D:\androidwork\FoodOrder\app\src\main\AndroidManifest.xml:15:13-19:29
-26                <action android:name="android.intent.action.MAIN" />
-26-->D:\androidwork\FoodOrder\app\src\main\AndroidManifest.xml:16:17-69
-26-->D:\androidwork\FoodOrder\app\src\main\AndroidManifest.xml:16:25-66
-27
-28                <category android:name="android.intent.category.LAUNCHER" />
-28-->D:\androidwork\FoodOrder\app\src\main\AndroidManifest.xml:18:17-77
-28-->D:\androidwork\FoodOrder\app\src\main\AndroidManifest.xml:18:27-74
-29            </intent-filter>
-30        </activity>
+24        <activity android:name="com.example.foodorder.SearchActivity" />
+24-->D:\androidwork\FoodOrder\app\src\main\AndroidManifest.xml:14:9-61
+24-->D:\androidwork\FoodOrder\app\src\main\AndroidManifest.xml:14:19-49
+25        <activity android:name="com.example.foodorder.FoodDetails" />
+25-->D:\androidwork\FoodOrder\app\src\main\AndroidManifest.xml:15:9-49
+25-->D:\androidwork\FoodOrder\app\src\main\AndroidManifest.xml:15:19-46
+26        <activity
+26-->D:\androidwork\FoodOrder\app\src\main\AndroidManifest.xml:16:9-24:20
+27            android:name="com.example.foodorder.MainActivity"
+27-->D:\androidwork\FoodOrder\app\src\main\AndroidManifest.xml:17:13-41
+28            android:windowSoftInputMode="stateHidden" >
+28-->D:\androidwork\FoodOrder\app\src\main\AndroidManifest.xml:18:13-54
+29            <intent-filter>
+29-->D:\androidwork\FoodOrder\app\src\main\AndroidManifest.xml:19:13-23:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->D:\androidwork\FoodOrder\app\src\main\AndroidManifest.xml:20:17-69
+30-->D:\androidwork\FoodOrder\app\src\main\AndroidManifest.xml:20:25-66
 31
-32        <meta-data
-32-->D:\androidwork\FoodOrder\app\src\main\AndroidManifest.xml:21:9-23:57
-33            android:name="preloaded_fonts"
-33-->D:\androidwork\FoodOrder\app\src\main\AndroidManifest.xml:22:13-43
-34            android:resource="@array/preloaded_fonts" />
-34-->D:\androidwork\FoodOrder\app\src\main\AndroidManifest.xml:23:13-54
-35    </application>
-36
-37</manifest>
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->D:\androidwork\FoodOrder\app\src\main\AndroidManifest.xml:22:17-77
+32-->D:\androidwork\FoodOrder\app\src\main\AndroidManifest.xml:22:27-74
+33            </intent-filter>
+34        </activity>
+35
+36        <meta-data
+36-->D:\androidwork\FoodOrder\app\src\main\AndroidManifest.xml:26:9-28:57
+37            android:name="preloaded_fonts"
+37-->D:\androidwork\FoodOrder\app\src\main\AndroidManifest.xml:27:13-43
+38            android:resource="@array/preloaded_fonts" />
+38-->D:\androidwork\FoodOrder\app\src\main\AndroidManifest.xml:28:13-54
+39    </application>
+40
+41</manifest>

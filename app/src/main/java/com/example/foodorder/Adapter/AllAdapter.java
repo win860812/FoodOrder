@@ -1,6 +1,7 @@
-package com.example.foodorder;
+package com.example.foodorder.Adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,6 +12,8 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.example.foodorder.FoodDetails;
+import com.example.foodorder.R;
 import com.example.foodorder.model.Allmenu;
 
 import java.util.List;
@@ -33,7 +36,7 @@ public class AllAdapter extends RecyclerView.Adapter<AllAdapter.AllAdapterViewHo
     }
 
     @Override
-    public void onBindViewHolder(@NonNull AllAdapterViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull AllAdapterViewHolder holder, final int position) {
         holder.all_name.setText(allmenuList.get(position).getName());
         holder.all_note.setText(allmenuList.get(position).getNote());
         holder.all_rating.setText(allmenuList.get(position).getRating());
@@ -41,6 +44,18 @@ public class AllAdapter extends RecyclerView.Adapter<AllAdapter.AllAdapterViewHo
         holder.all_deliverycost.setText(allmenuList.get(position).getDeliveryCharges());
         holder.all_price.setText(allmenuList.get(position).getPrice());
         Glide.with(context).load(allmenuList.get(position).getImageUrl()).into(holder.allimage);
+
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+        public void onClick(View view) {
+            Intent i  = new Intent(context, FoodDetails.class);
+            i.putExtra("name",allmenuList.get(position).getName());
+            i.putExtra("rating",allmenuList.get(position).getRating());
+            i.putExtra("price",allmenuList.get(position).getPrice());
+            i.putExtra("desc",allmenuList.get(position).getNote());
+            i.putExtra("image",allmenuList.get(position).getImageUrl());
+            context.startActivity(i);
+        }
+    });
     }
 
     @Override

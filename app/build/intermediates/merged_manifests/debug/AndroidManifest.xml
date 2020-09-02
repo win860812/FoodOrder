@@ -21,7 +21,11 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.foodorder.MainActivity" >
+        <activity android:name="com.example.foodorder.SearchActivity" />
+        <activity android:name="com.example.foodorder.FoodDetails" />
+        <activity
+            android:name="com.example.foodorder.MainActivity"
+            android:windowSoftInputMode="stateHidden" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

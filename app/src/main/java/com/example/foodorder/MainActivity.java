@@ -4,9 +4,15 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.foodorder.Adapter.AllAdapter;
+import com.example.foodorder.Adapter.PopularAdapter;
+import com.example.foodorder.Adapter.RecommendAdapter;
 import com.example.foodorder.model.Allmenu;
 import com.example.foodorder.model.FoodData;
 import com.example.foodorder.model.Popular;
@@ -19,7 +25,6 @@ import java.util.List;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
-import retrofit2.Retrofit;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -31,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
     PopularAdapter popularAdapter;
     RecommendAdapter recommendAdapter;
     AllAdapter allAdapter;
-
+    EditText editText;
 
 
     @Override
@@ -59,6 +64,8 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this,"Server is not response",Toast.LENGTH_SHORT).show();
             }
         });
+        ToSearch();
+
 
     }
 
@@ -81,8 +88,19 @@ public class MainActivity extends AppCompatActivity {
     private void getAllData(List<Allmenu> allmenuList){
         allRecyclerView = findViewById(R.id.all_recycler);
         allAdapter = new AllAdapter(this,allmenuList);
-        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL,false);
+        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false);
         allRecyclerView.setAdapter(allAdapter);
         allRecyclerView.setLayoutManager(layoutManager);
+    }
+
+    private void ToSearch(){
+        editText = findViewById(R.id.MainSearch);
+        editText.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),SearchActivity.class);
+                getApplicationContext().startActivity(intent);
+            }
+        });
     }
 }

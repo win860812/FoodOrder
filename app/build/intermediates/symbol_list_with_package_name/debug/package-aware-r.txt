@@ -682,6 +682,8 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable button_bg
+drawable ic_baseline_arrow_back_24
 drawable ic_baseline_card_giftcard_24
 drawable ic_baseline_search_24
 drawable ic_launcher_background
@@ -707,9 +709,11 @@ drawable tooltip_frame_dark
 drawable tooltip_frame_light
 font open_sans_bold
 id ALT
+id Addcart
 id CTRL
 id FUNCTION
 id META
+id MainSearch
 id SHIFT
 id SYM
 id accessibility_action_clickable_span
@@ -798,11 +802,13 @@ id dialog_button
 id dimensions
 id direct
 id disableHome
-id editTextTextPersonName
 id edit_query
 id end
 id expand_activities_button
 id expanded_menu
+id food_image
+id food_name
+id foodnote
 id forever
 id glide_custom_view_target_tag
 id gone
@@ -815,6 +821,8 @@ id icon_group
 id ifRoom
 id image
 id imageView
+id imageView2
+id imageView3
 id info
 id invisible
 id italic
@@ -842,9 +850,12 @@ id percent
 id popular_image
 id popular_name
 id popular_recycler
+id price
 id progress_circular
 id progress_horizontal
 id radio
+id rating
+id ratingBar
 id recommend_delivery
 id recommend_delivery_time
 id recommend_image
@@ -868,6 +879,7 @@ id search_edit_frame
 id search_go_btn
 id search_mag_icon
 id search_plate
+id search_recycler
 id search_src_text
 id search_voice_btn
 id select_dialog_listview
@@ -956,7 +968,9 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_food_details
 layout activity_main
+layout activity_search
 layout all_recycler_items
 layout custom_dialog
 layout notification_action

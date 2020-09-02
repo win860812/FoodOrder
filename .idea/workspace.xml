@@ -6,6 +6,7 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
@@ -33,10 +34,15 @@
       <list>
         <option value="resourceFile" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="layoutResourceFile" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="D:\androidwork\APK\KEY.jks" />
+    <option name="KEY_ALIAS" value="key0" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,19 +55,27 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ApkExportedModule" value="app" />
+    <property name="ExportApk.ApkPath" value="D:\androidwork\FoodOrder\app" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="ExportApk.SignV1" value="true" />
+    <property name="ExportApk.SignV2" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/FoodApp-master/build.gradle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../RecycleView-Search/build.gradle" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\androidwork\FoodOrder\app\src\main\res\drawable-v24" />
+    <key name="android.template.30046352">
+      <recent name="com.example.foodorder" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\androidwork\FoodOrder\app\src\main\res\drawable-v24" />
       <recent name="D:\androidwork\FoodOrder\app\src\main\res\drawable" />
+      <recent name="D:\androidwork\FoodOrder\app\src\main\res\drawable-v24" />
       <recent name="D:\androidwork\FoodOrder\app\src\main\java\com\example\foodorder" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\androidwork\FoodOrder\app\src\main\res\drawable-v24" />
     </key>
   </component>
   <component name="RunManager">
@@ -138,10 +152,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="830" y="272" key="#com.intellij.ide.util.MemberChooser" timestamp="1598960342516">
+    <state x="830" y="272" key="#com.intellij.ide.util.MemberChooser" timestamp="1599054999708">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="830" y="272" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1598960342516" />
+    <state x="830" y="272" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1599054999708" />
     <state x="755" y="302" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598961351667">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -154,26 +168,26 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="705" y="311" key="Downloadable.Font.Dialog.Size/0.0.2048.1112@0.0.2048.1112" timestamp="1598945226413" />
-    <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1599032464617">
+    <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1599053647975">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="805" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1599032464617" />
-    <state width="2005" height="376" key="GridCell.Tab.0.bottom" timestamp="1598966067545">
+    <state x="805" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1599053647975" />
+    <state width="2005" height="262" key="GridCell.Tab.0.bottom" timestamp="1599057902894">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1598966067545" />
-    <state width="2005" height="376" key="GridCell.Tab.0.center" timestamp="1598966067545">
+    <state width="2005" height="262" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1599057902894" />
+    <state width="2005" height="262" key="GridCell.Tab.0.center" timestamp="1599057902894">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1598966067545" />
-    <state width="2005" height="376" key="GridCell.Tab.0.left" timestamp="1598966067545">
+    <state width="2005" height="262" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1599057902894" />
+    <state width="2005" height="262" key="GridCell.Tab.0.left" timestamp="1599057902894">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1598966067545" />
-    <state width="2005" height="376" key="GridCell.Tab.0.right" timestamp="1598966067545">
+    <state width="2005" height="262" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1599057902894" />
+    <state width="2005" height="262" key="GridCell.Tab.0.right" timestamp="1599057902894">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1598966067545" />
+    <state width="2005" height="262" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1599057902894" />
     <state width="2005" height="376" key="GridCell.Tab.1.bottom" timestamp="1598966067545">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -194,5 +208,13 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="826" y="333" key="chooseDestDirectoryDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1598965715693" />
+    <state x="681" y="259" key="run.anything.popup" timestamp="1599037508207">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="681" y="259" key="run.anything.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1599037508207" />
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1599057825765">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1599057825765" />
   </component>
 </project>
