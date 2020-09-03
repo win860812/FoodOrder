@@ -683,8 +683,10 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable button_bg
+drawable ic_baseline_add_24
 drawable ic_baseline_arrow_back_24
 drawable ic_baseline_card_giftcard_24
+drawable ic_baseline_remove_24
 drawable ic_baseline_search_24
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -711,6 +713,7 @@ font open_sans_bold
 id ALT
 id Addcart
 id CTRL
+id CartTitle
 id FUNCTION
 id META
 id MainSearch
@@ -769,6 +772,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id add_image
 id alertTitle
 id all_deliverycost
 id all_deliverytime
@@ -780,12 +784,15 @@ id all_rating
 id all_recycler
 id all_star
 id always
+id amount
 id async
 id barrier
 id beginning
 id blocking
 id bottom
 id buttonPanel
+id cart_image
+id cart_recycler
 id center_vertical
 id chains
 id checkbox
@@ -808,6 +815,7 @@ id expand_activities_button
 id expanded_menu
 id food_image
 id food_name
+id food_price
 id foodnote
 id forever
 id glide_custom_view_target_tag
@@ -820,7 +828,6 @@ id icon
 id icon_group
 id ifRoom
 id image
-id imageView
 id imageView2
 id imageView3
 id info
@@ -864,6 +871,7 @@ id recommend_price
 id recommend_rating
 id recommend_star
 id recommended_recycler
+id remove_image
 id right
 id right_icon
 id right_side
@@ -968,10 +976,12 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_cart
 layout activity_food_details
 layout activity_main
 layout activity_search
 layout all_recycler_items
+layout cart_recycler_items
 layout custom_dialog
 layout notification_action
 layout notification_action_tombstone

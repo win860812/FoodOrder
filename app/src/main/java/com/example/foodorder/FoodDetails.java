@@ -4,9 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 
@@ -46,5 +48,14 @@ public class FoodDetails extends AppCompatActivity {
         itemnote.setText(note);
         ratingBar.setRating(Float.parseFloat(rating));
 
+    }
+
+    public void AddCart(View view) {
+        Intent intent = new Intent(FoodDetails.this,CartActivity.class);
+        intent.putExtra("name",name);
+        intent.putExtra("price",price);
+        intent.putExtra("imageUrl",imageUrl);
+        startActivity(intent);
+        Toast.makeText(this,"已加入購物車",Toast.LENGTH_SHORT).show();
     }
 }

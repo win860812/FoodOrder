@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidConfiguredLogFilters">
+    <filters>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="" />
+        <option name="name" value="test" />
+        <option name="packageNamePattern" value="" />
+        <option name="pid" value="" />
+      </filter>
+    </filters>
+  </component>
   <component name="AndroidLayouts">
     <shared>
       <config />
@@ -7,7 +19,7 @@
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="test" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51de5eb2-ecb6-468c-9296-4a73a7ecfb8e" name="Default Changelist" comment="" />
@@ -66,16 +78,19 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../RecycleView-Search/build.gradle" />
   </component>
   <component name="RecentsManager">
-    <key name="android.template.30046352">
-      <recent name="com.example.foodorder" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\androidwork\FoodOrder\app\src\main\res\drawable-v24" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\androidwork\FoodOrder\app\src\main\res\drawable" />
       <recent name="D:\androidwork\FoodOrder\app\src\main\res\drawable-v24" />
       <recent name="D:\androidwork\FoodOrder\app\src\main\java\com\example\foodorder" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\androidwork\FoodOrder\app\src\main\res\drawable-v24" />
+    <key name="android.template.2138244011">
+      <recent name="com.example.foodorder" />
+    </key>
+    <key name="android.template.30046352">
+      <recent name="com.example.foodorder" />
     </key>
   </component>
   <component name="RunManager">
@@ -152,18 +167,18 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="830" y="272" key="#com.intellij.ide.util.MemberChooser" timestamp="1599054999708">
+    <state x="830" y="272" key="#com.intellij.ide.util.MemberChooser" timestamp="1599133517763">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="830" y="272" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1599054999708" />
+    <state x="830" y="272" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1599133517763" />
     <state x="755" y="302" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598961351667">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="755" y="302" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1598961351667" />
-    <state x="605" y="311" key="AndroidCreateResourceFileDialog" timestamp="1598960144503">
+    <state x="605" y="311" key="AndroidCreateResourceFileDialog" timestamp="1599122896214">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="605" y="311" key="AndroidCreateResourceFileDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1598960144503" />
+    <state x="605" y="311" key="AndroidCreateResourceFileDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1599122896214" />
     <state x="705" y="311" key="Downloadable.Font.Dialog.Size" timestamp="1598945226413">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -172,49 +187,53 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="805" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1599053647975" />
-    <state width="2005" height="262" key="GridCell.Tab.0.bottom" timestamp="1599057902894">
+    <state width="2005" height="376" key="GridCell.Tab.0.bottom" timestamp="1599136259887">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="262" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1599057902894" />
-    <state width="2005" height="262" key="GridCell.Tab.0.center" timestamp="1599057902894">
+    <state width="2005" height="376" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1599136259887" />
+    <state width="2005" height="376" key="GridCell.Tab.0.center" timestamp="1599136259887">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="262" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1599057902894" />
-    <state width="2005" height="262" key="GridCell.Tab.0.left" timestamp="1599057902894">
+    <state width="2005" height="376" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1599136259887" />
+    <state width="2005" height="376" key="GridCell.Tab.0.left" timestamp="1599136259887">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="262" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1599057902894" />
-    <state width="2005" height="262" key="GridCell.Tab.0.right" timestamp="1599057902894">
+    <state width="2005" height="376" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1599136259887" />
+    <state width="2005" height="376" key="GridCell.Tab.0.right" timestamp="1599136259887">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="262" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1599057902894" />
-    <state width="2005" height="376" key="GridCell.Tab.1.bottom" timestamp="1598966067545">
+    <state width="2005" height="376" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1599136259887" />
+    <state width="2005" height="376" key="GridCell.Tab.1.bottom" timestamp="1599136259888">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1598966067545" />
-    <state width="2005" height="376" key="GridCell.Tab.1.center" timestamp="1598966067545">
+    <state width="2005" height="376" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1599136259888" />
+    <state width="2005" height="376" key="GridCell.Tab.1.center" timestamp="1599136259887">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1598966067545" />
-    <state width="2005" height="376" key="GridCell.Tab.1.left" timestamp="1598966067545">
+    <state width="2005" height="376" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1599136259887" />
+    <state width="2005" height="376" key="GridCell.Tab.1.left" timestamp="1599136259887">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1598966067545" />
-    <state width="2005" height="376" key="GridCell.Tab.1.right" timestamp="1598966067545">
+    <state width="2005" height="376" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1599136259887" />
+    <state width="2005" height="376" key="GridCell.Tab.1.right" timestamp="1599136259887">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1598966067545" />
+    <state width="2005" height="376" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1599136259887" />
     <state x="826" y="333" key="chooseDestDirectoryDialog" timestamp="1598965715693">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="826" y="333" key="chooseDestDirectoryDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1598965715693" />
+    <state x="783" y="398" key="edit.logcat.filter.dialog.dimensions" timestamp="1599132755977">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="783" y="398" key="edit.logcat.filter.dialog.dimensions/0.0.2048.1112@0.0.2048.1112" timestamp="1599132755977" />
     <state x="681" y="259" key="run.anything.popup" timestamp="1599037508207">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="681" y="259" key="run.anything.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1599037508207" />
-    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1599057825765">
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1599125273131">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1599057825765" />
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1599125273131" />
   </component>
 </project>
