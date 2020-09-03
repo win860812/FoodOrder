@@ -714,11 +714,14 @@ id ALT
 id Addcart
 id CTRL
 id CartTitle
+id Cart_backMain
+id Detail_back
 id FUNCTION
 id META
 id MainSearch
 id SHIFT
 id SYM
+id TotalPrice
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
 id accessibility_custom_action_1
@@ -828,7 +831,6 @@ id icon
 id icon_group
 id ifRoom
 id image
-id imageView2
 id imageView3
 id info
 id invisible
@@ -872,6 +874,7 @@ id recommend_rating
 id recommend_star
 id recommended_recycler
 id remove_image
+id resetcart_btn
 id right
 id right_icon
 id right_side

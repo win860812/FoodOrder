@@ -58,4 +58,9 @@ public class FoodDetails extends AppCompatActivity {
         startActivity(intent);
         Toast.makeText(this,"已加入購物車",Toast.LENGTH_SHORT).show();
     }
+
+    public void backtoMain(View view) {
+        Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+        startActivity(intent);
+    }
 }
